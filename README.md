@@ -20,7 +20,6 @@ End the program.
 
 ## PROGRAM:
 ```python
-#To write a python program for reading content from a CSV file.
 #Developed by: Mercy A
 #Register Number: 212223110027
 
