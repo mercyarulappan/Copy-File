@@ -24,17 +24,17 @@ End the program.
 #Developed by: Mercy A
 #Register Number: 212223110027
 
-import pandas as pd
-df = pd.read_csv('nba.csv')
-print(df.head(10))
-print(df.tail())
-print("Number of rows:",len(df.axes[0]))
-print("Number of columns:",len(df.axes[1]))
+with open("text1.txt",'r') as file:
+    msg=file.read()
+with open("copy.txt","w") as file2:
+    file2.write(msg)
 ```
 
 ### OUTPUT:
 
-![image](https://github.com/mercyarulappan/Copy-File/assets/149233730/051ce7ca-79c1-4a6a-bb17-2d81d038a906)
+![Screenshot 2024-05-13 084712](https://github.com/mercyarulappan/Copy-File/assets/149233730/91e6137a-dde0-4910-8eca-be7118f5f45a)
+
+![Screenshot 2024-05-13 084604](https://github.com/mercyarulappan/Copy-File/assets/149233730/90e8a99d-1b40-4e64-9024-c90053fd5653)
 
 
 ## RESULT:
